@@ -8,3 +8,5 @@ Tested with Arduino UNO and Sparkfun MPR121.
 
 Check out Bare Conductive tutorial for connecting your TOUCH BOARD or Arduino to Max.
 http://www.bareconductive.com/make/the-touch-board-maxmsp/
+
+More at: www.irieelectronics.de
