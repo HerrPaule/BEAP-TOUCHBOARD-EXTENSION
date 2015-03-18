@@ -1,7 +1,8 @@
 # BEAP TOUCHBOARD EXTENSION
 
-works with Bare Conductive TOUCH BOARD or Arduino with MPR121
+works with Bare Conductive TOUCH BOARD or Arduino MPR121
 Simple Extensions for Cycling'74 Max BEAP
+
 If you want to use an Arduino with MPR121, download & install the edited MPR121 Library. 
 Tested with Arduino UNO and Sparkfun MPR121.
 
