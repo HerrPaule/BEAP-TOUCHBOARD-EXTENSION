@@ -66,7 +66,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u639002125"
+					"varname" : "u372004507"
 				}
 
 			}
@@ -113,7 +113,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 141.799988, 137.5, 272.0, 25.0 ],
-					"presentation_rect" : [ 26.799988, 145.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "connect \"Serial Interface\" output to inlet"
 				}
@@ -260,7 +259,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 510.649994, 717.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 477.5, 756.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -306,7 +304,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.799988, 847.0, 330.0, 25.0 ],
-					"presentation_rect" : [ 231.799988, 880.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "clip incoming data to min./max. of selected electrode"
 				}
@@ -322,10 +319,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.799988, 278.0, 263.0, 25.0 ],
-					"presentation_rect" : [ 9.799988, 346.5, 0.0, 0.0 ],
+					"patching_rect" : [ 133.799988, 278.0, 271.0, 25.0 ],
 					"style" : "",
-					"text" : "select incoming data from one electrode"
+					"text" : "select incoming data of a single electrode"
 				}
 
 			}
@@ -336,12 +332,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-32",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.799988, 205.5, 362.0, 69.0 ],
-					"presentation_rect" : [ 564.299988, 46.0, 0.0, 0.0 ],
+					"patching_rect" : [ 29.799988, 213.0, 375.0, 54.0 ],
 					"style" : "",
 					"text" : "Example for Basic electrode data\n\nFDAT: 512 234 765 789 1023 512 234 765 789 1023  34 457"
 				}
@@ -353,12 +348,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-31",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1201.550049, 205.5, 440.5, 69.0 ],
-					"presentation_rect" : [ 475.799988, 90.5, 0.0, 0.0 ],
+					"patching_rect" : [ 1201.550049, 205.5, 460.5, 54.0 ],
 					"style" : "",
 					"text" : "Example for  Baseline electrode data\n\nBVAL: 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 "
 				}
@@ -421,9 +415,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.799988, 503.5, 161.0, 69.0 ],
+					"patching_rect" : [ 435.799988, 503.5, 166.0, 69.0 ],
 					"style" : "",
-					"text" : "Turn gate on/off.\nIf gate is closed, the min. value can be set manually."
+					"text" : "Turn gate on/off.\nIf gate is closed, the min./max. value can be set manually."
 				}
 
 			}
@@ -1128,7 +1122,7 @@
 					"destination" : [ "obj-17", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 739.800049, 876.0, 701.850006, 876.0 ],
+					"midpoints" : [ 739.800049, 876.0, 701.850007, 876.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
